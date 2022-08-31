@@ -30,8 +30,8 @@
 }
 
 .light-mode {
-  --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  --color-primary: #EC7272;
+  --color-secondary: #F7A76C;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -408,6 +408,10 @@ section {
   text-align: center;
 }
 
+.port-text span {
+  color: var(--color-secondary);
+}
+
 .portfolios {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -549,11 +553,11 @@ section {
 .contact-content-con .left-contact p {
   margin: 1rem 0;
   line-height: 2rem;
+  text-align: left;
 }
 .contact-content-con .left-contact .contact-info .contact-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .contact-content-con .left-contact .contact-info .contact-item p {
   margin: 0.3rem 0 !important;
@@ -734,8 +738,6 @@ h1::after {
   animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 1s forwards,
     blink 900ms steps(var(--typewriterCharacters)) infinite;
 }
-
-
 
 @media screen and (max-width: 600px) {
   header {
@@ -1008,6 +1010,12 @@ h1::after {
   to {
     left: 100%;
     overflow: hidden;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
   }
 }
 
