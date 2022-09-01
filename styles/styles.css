@@ -785,10 +785,12 @@ h1::after {
   .contact-item {
     flex-direction: column;
     margin: 1rem 0;
+    justify-content: center;
   }
   .contact-item p {
     font-size: 15px;
     color: var(--color-grey-2);
+    text-align: center;
   }
   .contact-item span {
     font-size: 15px;
