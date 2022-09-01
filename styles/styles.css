@@ -739,6 +739,32 @@ h1::after {
     blink 900ms steps(var(--typewriterCharacters)) infinite;
 }
 
+/* Button/Icon shining effect */
+
+  .icon:hover {
+    box-shadow: 1px 1px 25px 10px var(--color-primary);
+    color: var(--color-black);
+    background-color: var(--color-primary);
+  }
+  
+  .icon:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      var(--color-primary),
+      transparent
+    );
+    transition: all 650ms;
+  }
+  
+  .icon:hover:before {
+    left: 100%;
+  }
+
+
 @media screen and (max-width: 600px) {
   header {
     padding: 0 !important;
