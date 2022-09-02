@@ -14,17 +14,17 @@ Constructive comments and help are appreciated.
 <br />
 **Things i want to implement:**
 
-- *Navbar :heavy_check_mark:*
+- *Navbar :heavy_check_mark:
 
-- *Imagechanger :heavy_check_mark:*
+- *Imagechanger :heavy_check_mark:
 
-- *Typewriting effect :heavy_check_mark:*
+- *Typewriting effect :heavy_check_mark:
 
-- More "working" icons/buttons :heavy_check_mark:*
+- More "working" icons/buttons :heavy_check_mark:
 
-- More smooth transitions :heavy_check_mark:*
+- More smooth transitions :heavy_check_mark:
 
-- Show active section in navbar after clicking it or scrolling to it :heavy_check_mark:*
+- Show active section in navbar after clicking it or scrolling to it :heavy_check_mark:
 
 - Better mobile compatibility :x:
 
