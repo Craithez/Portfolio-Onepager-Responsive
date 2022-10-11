@@ -838,6 +838,9 @@ h1::after {
   .main-title h2 .bg-text {
     font-size: 5.5rem;
   }
+  span {
+    font-size: 3rem;
+  }
 }
 @media screen and (max-width: 1250px) {
   .blogs {
@@ -879,6 +882,9 @@ h1::after {
   .main-title h2 .bg-text {
     font-size: 4.5rem;
   }
+  span {
+    font-size: 3rem;
+  }
 }
 @media screen and (max-width: 970px) {
   .container {
@@ -913,6 +919,9 @@ h1::after {
     text-align: center;
     padding-top: 3rem;
   }
+  span {
+    font-size: 3rem;
+  }
 }
 @media screen and (max-width: 700px) {
   .container {
@@ -940,6 +949,9 @@ h1::after {
   .main-title h2 .bg-text {
     font-size: 4rem;
   }
+  span {
+    font-size: 3rem;
+  }
 }
 
 @keyframes typewriter {
@@ -955,12 +967,6 @@ h1::after {
   }
 }
 
-@media screen and (max-width: 700px) {
-  @keyframes typewriter {
-    height: 3rem;
-  }
-  
-}
 
 
 
