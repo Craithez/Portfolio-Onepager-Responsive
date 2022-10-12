@@ -951,6 +951,7 @@ h1::after {
   }
   span {
     font-size: 3rem;
+    height: 3rem;
   }
 }
 
