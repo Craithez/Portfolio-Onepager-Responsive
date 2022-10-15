@@ -959,6 +959,7 @@ h1::after {
   to {
     left: 100%;
     overflow: hidden;
+    font-size: 3rem;
   }
 }
 
