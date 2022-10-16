@@ -960,6 +960,7 @@ h1::after {
     left: 100%;
     overflow: hidden;
     font-size: 3rem;
+    height: 5%;
   }
 }
 
